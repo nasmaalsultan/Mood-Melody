@@ -9,9 +9,9 @@ A Streamlit app that transforms user input (mood, genre, and vibe) into AI-gener
 
 ## It’s built with:
 
-- 🖥️ [Streamlit](https://streamlit.io) for the web interface  
-- 🤖 [Ollama](https://ollama.ai) with the **Mistral** model for lyric generation  
-- 🎶 [Bark](https://github.com/suno-ai/bark) for text-to-audio synthesis  
+- [Streamlit](https://streamlit.io) for the web interface  
+- [Ollama](https://ollama.ai) with the **Mistral** model for lyric generation  
+- [Bark](https://github.com/suno-ai/bark) for text-to-audio synthesis  
 
 This project was a creative experiment — and even though the generated audio wasn’t great, it became a great learning experience in prompt design, model integration, and AI audio synthesis.
 
@@ -50,15 +50,17 @@ Mood-Melody/
    pip install -r requirements.txt
 
 3. **Install and start Ollama**
-   # Install Ollama (macOS, Windows, or Linux)
+   
+   Install Ollama (macOS, Windows, or Linux):
    https://ollama.ai/download
-   # Run Ollama server locally
+
+   Run Ollama server locally:
    ollama serve
 
-4. **Pull the Mistral model**
+5. **Pull the Mistral model**
    ollama pull mistral
 
-5. **Run the Streamlit app**
+6. **Run the Streamlit app**
    streamlit run app.py
 
 ---
